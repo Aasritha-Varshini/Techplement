@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  animation: gradientAnimation 10s ease infinite;
+  background: linear-gradient(45deg, #f0f8ff, #a0e4ff); /* Initial gradient */
+  background-size: 400% 400%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(45deg, #f0f8ff, #a0e4ff); /* Transition from Alice Blue to light blue */
+  }
+  50% {
+    background: linear-gradient(45deg, #a0e4ff, #f0f8ff); /* Transition from light blue back to Alice Blue */
+  }
+  100% {
+    background: linear-gradient(45deg, #f0f8ff, #a0e4ff); /* Transition from Alice Blue to light blue */
+  }
+}
+
+.container {
+  background: #ffffff; /* White background for the container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%; /* Responsive width */
+  text-align: center; /* Center text and buttons */
+}
+
+h1 {
+  color: #333333; /* Dark gray color for the header */
+  margin-bottom: 20px;
+}
+
+#quote-display {
+  margin: 20px 0;
+  padding: 20px;
+  background: #eaf7ff; /* Light blue background for quote section */
+  border-radius: 8px;
+  border: 1px solid #b3d9ff; /* Light blue border */
+}
+
+#quote {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333; /* Dark gray color for quote text */
+}
+
+#author-display {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #666666; /* Gray color for author text */
+}
+
+button {
+  background-color: #4CAF50; /* Green background for buttons */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+#search {
+  margin: 20px 0;
+}
+
+#search input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 300px;
+}
+
+#search button {
+  background-color: #008CBA; /* Blue background for search button */
+}
+
+#search button:hover {
+  background-color: #007bb5; /* Darker blue on hover */
+}
+
+#search-results {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#search-results li {
+  background: #f2f2f2; /* Light gray background for search results */
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
