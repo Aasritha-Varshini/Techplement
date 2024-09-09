@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const authorDisplay = document.getElementById('author-display');
     const searchResults = document.getElementById('search-results');
 
-    // Function to fetch a random quote from the API
+    
     async function fetchRandomQuote() {
         try {
             const response = await fetch('http://localhost:5000/api/quotes/random');
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Function to search for quotes by author from local file
+   
     async function searchStaticQuotes() {
         const author = authorInput.value.trim(); // Get trimmed value
         if (!author) {
