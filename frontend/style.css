@@ -1,65 +1,65 @@
 body {
   font-family: Arial, sans-serif;
   animation: gradientAnimation 10s ease infinite;
-  background: linear-gradient(45deg, #f0f8ff, #a0e4ff); /* Initial gradient */
+  background: linear-gradient(45deg, #f0f8ff, #a0e4ff); 
   background-size: 400% 400%;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
 }
 
 @keyframes gradientAnimation {
   0% {
-    background: linear-gradient(45deg, #f0f8ff, #a0e4ff); /* Transition from Alice Blue to light blue */
+    background: linear-gradient(45deg, #f0f8ff, #a0e4ff); 
   }
   50% {
-    background: linear-gradient(45deg, #a0e4ff, #f0f8ff); /* Transition from light blue back to Alice Blue */
+    background: linear-gradient(45deg, #a0e4ff, #f0f8ff); 
   }
   100% {
-    background: linear-gradient(45deg, #f0f8ff, #a0e4ff); /* Transition from Alice Blue to light blue */
+    background: linear-gradient(45deg, #f0f8ff, #a0e4ff); 
   }
 }
 
 .container {
-  background: #ffffff; /* White background for the container */
+  background: #ffffff; 
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   max-width: 600px;
-  width: 100%; /* Responsive width */
-  text-align: center; /* Center text and buttons */
+  width: 100%; 
+  text-align: center; 
 }
 
 h1 {
-  color: #333333; /* Dark gray color for the header */
+  color: #333333; 
   margin-bottom: 20px;
 }
 
 #quote-display {
   margin: 20px 0;
   padding: 20px;
-  background: #eaf7ff; /* Light blue background for quote section */
+  background: #eaf7ff; 
   border-radius: 8px;
-  border: 1px solid #b3d9ff; /* Light blue border */
+  border: 1px solid #b3d9ff; 
 }
 
 #quote {
   font-size: 24px;
   font-weight: bold;
-  color: #333333; /* Dark gray color for quote text */
+  color: #333333; 
 }
 
 #author-display {
   font-size: 18px;
   margin-top: 10px;
-  color: #666666; /* Gray color for author text */
+  color: #666666;
 }
 
 button {
-  background-color: #4CAF50; /* Green background for buttons */
+  background-color: #4CAF50; 
   color: white;
   border: none;
   border-radius: 5px;
@@ -70,7 +70,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049; 
 }
 
 #search {
@@ -87,11 +87,11 @@ button:hover {
 }
 
 #search button {
-  background-color: #008CBA; /* Blue background for search button */
+  background-color: #008CBA; 
 }
 
 #search button:hover {
-  background-color: #007bb5; /* Darker blue on hover */
+  background-color: #007bb5; 
 }
 
 #search-results {
@@ -101,7 +101,7 @@ button:hover {
 }
 
 #search-results li {
-  background: #f2f2f2; /* Light gray background for search results */
+  background: #f2f2f2; 
   margin: 5px 0;
   padding: 10px;
   border-radius: 5px;
